@@ -233,6 +233,8 @@ GameObject:
   - component: {fileID: 554111858}
   - component: {fileID: 554111860}
   - component: {fileID: 554111861}
+  - component: {fileID: 554111862}
+  - component: {fileID: 554111863}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -386,6 +388,37 @@ MonoBehaviour:
     type: 3}
   bulletSpawn: {fileID: 1382902493}
   fireTime: 0.5
+--- !u!95 &554111862
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554111854}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5281286d1b1e276478c8ef2fd7f3908e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &554111863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554111854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23703065b34e10f46874cf451bbe8340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &827604920
 GameObject:
   m_ObjectHideFlags: 0
