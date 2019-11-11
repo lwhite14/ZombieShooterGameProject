@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8856077653266973086}
   - component: {fileID: 8856077653266973085}
   - component: {fileID: 8644904211202500491}
+  - component: {fileID: -1341799610323109984}
   m_Layer: 10
   m_Name: Zombie
   m_TagString: Untagged
@@ -219,3 +220,16 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: EnemySpawnedEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
+--- !u!114 &-1341799610323109984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8856077653266973082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c43c07c9405a04da59464cc619545e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 10
