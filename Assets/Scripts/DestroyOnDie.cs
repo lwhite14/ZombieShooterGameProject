@@ -11,7 +11,7 @@ public class DestroyOnDie : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Die()
+    public void Die()
     {
         Destroy(gameObject);
     }
