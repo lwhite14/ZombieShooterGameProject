@@ -106,9 +106,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.6}
+  m_Offset: {x: 0, y: 0.020375371}
   serializedVersion: 2
-  m_Radius: 0.55
+  m_Radius: 0.5
 --- !u!114 &8856077653266973084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,6 +347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1215184066617228621}
   - component: {fileID: 6042017500896179876}
+  - component: {fileID: 9190412887245449118}
   m_Layer: 14
   m_Name: Hurt Trigger
   m_TagString: Untagged
@@ -382,3 +383,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   resetTime: 0.25
+--- !u!58 &9190412887245449118
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9207304699234412439}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.6}
+  serializedVersion: 2
+  m_Radius: 0.56
