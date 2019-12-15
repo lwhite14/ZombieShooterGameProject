@@ -7,15 +7,14 @@ using UnityEngine;
 public class Knockback : MonoBehaviour
 {
     private GameObject playerObj = null;
-    private GameObject enemyObj = null;
+    private GameObject enemyObj;
     bool isHurt = false;
     int hurtCounter = 20;
-    string script = "AI Lerp";
 
     private void Start()
     {
         playerObj = GameObject.Find("Hero");
-        enemyObj = GameObject.FindGameObjectWithTag("Enemy");
+        enemyObj = gameObject;
     }
 
     private void Update()
