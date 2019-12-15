@@ -7473,6 +7473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pathfinder
       objectReference: {fileID: 0}
+    - target: {fileID: 1173840124508760, guid: d33c08317ce1f2a4a9603763aa54c65f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4826625736856506, guid: d33c08317ce1f2a4a9603763aa54c65f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -7516,16 +7520,6 @@ PrefabInstance:
     - target: {fileID: 4826625736856506, guid: d33c08317ce1f2a4a9603763aa54c65f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114237468523964854, guid: d33c08317ce1f2a4a9603763aa54c65f,
-        type: 3}
-      propertyPath: showGraphs
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114237468523964854, guid: d33c08317ce1f2a4a9603763aa54c65f,
-        type: 3}
-      propertyPath: data.dataString
-      value: UEsDBBQAAAgIAAAAIewZBiT6OgIAAMsEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE2T2jAM/SuMz6UT2A3b7a0FlvbAwizt9JKLsRXiwbEz/li+hv9e2Qkkm05PsaUn6T1JzoUIZStgTpuFEXypOZCvAxLO5NOA0Oh7o05oNI/QIqwuwRnBvqmdDNgEjV6JXJtyzncw1dZZNOdUWkCX0S5EKzRdBuSIn+FzCDk1oefwHVzxxEA5MC0u+ZzecPHUIr1ikpYV8I04QxuQjhp8OoowhWIaRPAwLaWwDRXiTlVU+kZPQSgXFGXF8gFbgNgVDi/jbuAqzy24hrihp5kw2J06I/muXREyldTua07vVPpQY5KmD0+RUZ12+Q9iWBPOjS5/3CqPklDFFYLtkSOj1nW62jXPPlL36kDlnm4l/ClAveqF0V5xdDrjQ6i3MJ6117u4aQFs39prqj2jrzrj6Q0xaLhG/cepFOW2ceF1I3XsdZw7GJzKT6Qbt8I2KLQGDr8t/KK77vo0jhdhrENXo1EFclvtTYCSeexY0OLdVBsFppuhAkWlO60xj+vPsOf7f9QLDS+kqd74bg+gFxLNLT5Jeq61PtxnZQt9WIItVt5JoaBtdHC8YqOmWql6xbqSbmEbb3LKOmE7L/jHzSITRp+T5CGByfhxguhhAjDesscRSyZf+FOakrh6QqFOKtc10aY9ODbVJle4Zrd/w2BhaBXXnRt6WIhzqW2LFCrXG2YA1KrOcCcOBovgk+RzLrBBG3BOqDhwcsmI1GwPPLsnyqLS+dEZmrVZMlKJd+2CJSPT+NPIyJVc/wJQSwMEFAAACAgAAAAh7BCpuo1sAAAAdwAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSM9JRUEovSizIKAYKGII4pZkpIHa0kllyoqWBgbFBqpmRiVlaYrKuQWqqUVKyiWGygZlFirmpqVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAACHsGQYk+joCAADLBAAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAACHsEKm6jWwAAAB3AAAACQAkAAAAAAAAAAAAAACHAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAD4DAAAAAA==
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d33c08317ce1f2a4a9603763aa54c65f, type: 3}
@@ -9906,7 +9900,7 @@ GameObject:
   m_Layer: 0
   m_Name: Zombie Spawner
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -9918,7 +9912,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017062414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.99, y: 6.79, z: -15}
+  m_LocalPosition: {x: 6.24, y: 3.33, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
