@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Pathfinding;
 using UnityEngine;
 
 public class Knockback : MonoBehaviour
@@ -9,6 +10,7 @@ public class Knockback : MonoBehaviour
     private GameObject enemyObj = null;
     bool isHurt = false;
     int hurtCounter = 20;
+    string script = "AI Lerp";
 
     private void Start()
     {
@@ -48,8 +50,10 @@ public class Knockback : MonoBehaviour
         double angle = getAngle(difference.y, difference.x);
         double pushX = getAd(angle) * neg;
         double pushY = getOp(angle) * neg;
-    
+
+        enemyObj.GetComponent<AILerp>().enabled = false;
         transform.position = new Vector2(transform.position.x + (float)pushX, transform.position.y + (float)pushY);
+        enemyObj.GetComponent<AILerp>().enabled = true;
 
         var enemyRenderer = enemyObj.GetComponent<Renderer>();
         enemyRenderer.material.SetColor("_Color", Color.red);
