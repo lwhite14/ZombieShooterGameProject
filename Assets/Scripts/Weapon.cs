@@ -17,6 +17,10 @@ public class Weapon : MonoBehaviour
         {
             GetComponent<AudioSource>().Play();
         }
+
+        var gunKickComp = gameObject.GetComponent<GunKick>();
+        gunKickComp.kickBack();
+
         Invoke("SetFiring", fireTime);
     }
     private void Update()

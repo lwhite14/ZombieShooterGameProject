@@ -62,14 +62,14 @@ public class Knockback : MonoBehaviour
     private static double getAd(double ang)
     {
         double output;
-        output = Math.Cos(ang * (Math.PI / 180.0)) * 2;
+        output = Math.Cos(ang * (Math.PI / 180.0)) * 1;
         return output;
     }
 
     private static double getOp(double ang)
     {
         double output;
-        output = Math.Sin(ang * (Math.PI / 180.0)) * 2;
+        output = Math.Sin(ang * (Math.PI / 180.0)) * 1;
         return output;
     }
 
