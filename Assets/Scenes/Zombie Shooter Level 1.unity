@@ -321,8 +321,6 @@ GameObject:
   - component: {fileID: 93304715}
   - component: {fileID: 93304714}
   - component: {fileID: 93304713}
-  - component: {fileID: 93304717}
-  - component: {fileID: 93304718}
   m_Layer: 5
   m_Name: Death Button
   m_TagString: Untagged
@@ -412,7 +410,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 93304718}
+      - m_Target: {fileID: 0}
         m_MethodName: printCheck
         m_Mode: 1
         m_Arguments:
@@ -463,31 +461,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93304711}
   m_CullTransparentMesh: 0
---- !u!114 &93304717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 93304711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3ca4c07dcf6d524cbc5afd095904a7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cursor: {fileID: 0}
---- !u!114 &93304718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 93304711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d49b5f9d37b4394b92a631687371259, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &286608584
 GameObject:
   m_ObjectHideFlags: 0
