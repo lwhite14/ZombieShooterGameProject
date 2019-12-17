@@ -19,23 +19,27 @@ public class EnemyAnimationControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 difference = playerObj.transform.position - selfObj.transform.position;
-
-        Knockback knockBack = selfObj.GetComponent<Knockback>();
-
-        if (knockBack.isHurt == false)
+        try
         {
-            if (difference.y > 0)
+            Vector2 difference = playerObj.transform.position - selfObj.transform.position;
+
+            Knockback knockBack = selfObj.GetComponent<Knockback>();
+
+            if (knockBack.isHurt == false)
             {
-                walkAnim.SetBool("isWalkingForward", false);
-                walkAnim.SetBool("isWalkingBackward", true);
-            }
-            else
-            {
-                walkAnim.SetBool("isWalkingForward", true);
-                walkAnim.SetBool("isWalkingBackward", false);
+                if (difference.y > 0)
+                {
+                    walkAnim.SetBool("isWalkingForward", false);
+                    walkAnim.SetBool("isWalkingBackward", true);
+                }
+                else
+                {
+                    walkAnim.SetBool("isWalkingForward", true);
+                    walkAnim.SetBool("isWalkingBackward", false);
+                }
             }
         }
+        catch { }
     }
 }
 
