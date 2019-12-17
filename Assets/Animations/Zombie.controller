@@ -242,7 +242,7 @@ AnimatorStateTransition:
     m_ConditionEvent: isWalkingForward
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: isWalkingForward
+    m_ConditionEvent: isWalkingBackward
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3686305242876094091}
