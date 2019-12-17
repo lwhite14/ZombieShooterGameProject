@@ -6,34 +6,27 @@ public class EnemyAnimationControl : MonoBehaviour
 {
 
     private Animator walkAnim;
-    float previousY;
-    float currentY;
-    float diff;
+    private GameObject selfObj;
+    private GameObject playerObj;
     // Start is called before the first frame update
     void Start()
     {
         walkAnim = GetComponent<Animator>();
+        selfObj = gameObject;
+        playerObj = GameObject.Find("Hero");
     }
 
     // Update is called once per frame
     void Update()
     {
-        currentY = transform.position.y;
+        Vector2 difference = playerObj.transform.position - selfObj.transform.position;
+        Debug.Log(difference.y);
 
+        Knockback knockBack = selfObj.GetComponent<Knockback>();
 
-        Debug.Log(diff);
-        //Debug.Log();
-
-
-        diff = currentY - previousY;
-        if (diff == 0)
+        if (knockBack.isHurt == false)
         {
-            walkAnim.SetBool("isWalkingForward", false);
-            walkAnim.SetBool("isWalkingBackward", false);
-        }
-        else
-        {
-            if (diff > 0)
+            if (difference.y > 0)
             {
                 walkAnim.SetBool("isWalkingForward", false);
                 walkAnim.SetBool("isWalkingBackward", true);
@@ -44,9 +37,7 @@ public class EnemyAnimationControl : MonoBehaviour
                 walkAnim.SetBool("isWalkingBackward", false);
             }
         }
-
-        previousY = transform.position.y;
     }
-
 }
+
 

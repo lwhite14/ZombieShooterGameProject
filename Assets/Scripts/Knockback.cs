@@ -8,13 +8,15 @@ public class Knockback : MonoBehaviour
 {
     private GameObject playerObj = null;
     private GameObject enemyObj;
-    bool isHurt = false;
-    int hurtCounter = 20;
+    public bool isHurt = false;
+    int hurtCounter = 10;
+    private Animator walkAnim;
 
     private void Start()
     {
-        playerObj = GameObject.Find("Hero");
+        walkAnim = GetComponent<Animator>();
         enemyObj = gameObject;
+        playerObj = GameObject.Find("Hero");
     }
 
     private void Update()
