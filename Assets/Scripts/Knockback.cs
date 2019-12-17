@@ -8,14 +8,16 @@ public class Knockback : MonoBehaviour
 {
     private GameObject playerObj = null;
     private GameObject enemyObj;
+    private AILerp lerp;
     public bool isHurt = false;
-    int hurtCounter = 10;
+    int hurtCounter = 20;
     private Animator walkAnim;
 
     private void Start()
     {
         walkAnim = GetComponent<Animator>();
         enemyObj = gameObject;
+        lerp = enemyObj.GetComponent<AILerp>();
         playerObj = GameObject.Find("Hero");
     }
 
@@ -28,7 +30,8 @@ public class Knockback : MonoBehaviour
                 isHurt = false;
                 var enemyRenderer = enemyObj.GetComponent<Renderer>();
                 enemyRenderer.material.SetColor("_Color", Color.white);
-                hurtCounter = 10;
+                hurtCounter = 20;
+                lerp.speed = 3;
             }
             else
             {
@@ -43,24 +46,25 @@ public class Knockback : MonoBehaviour
         if (other.tag != "Player")
         {
 
-            Vector2 difference = transform.position - playerObj.transform.position;
+            //Vector2 difference = transform.position - playerObj.transform.position;
 
-            int neg = 1;
-            if (difference.x < 0)
-            {
-                neg = -1;
-            }
+            //int neg = 1;
+            //if (difference.x < 0)
+            //{
+            //    neg = -1;
+            //}
 
-            double angle = getAngle(difference.y, difference.x);
-            double pushX = getAd(angle) * neg;
-            double pushY = getOp(angle) * neg;
+            //double angle = getAngle(difference.y, difference.x);
+            //double pushX = getAd(angle) * neg;
+            //double pushY = getOp(angle) * neg;
 
-            enemyObj.GetComponent<AILerp>().enabled = false;
-            transform.position = new Vector2(transform.position.x + (float)pushX, transform.position.y + (float)pushY);
-            enemyObj.GetComponent<AILerp>().enabled = true;
+            //enemyObj.GetComponent<AILerp>().enabled = false;
+            //transform.position = new Vector2(transform.position.x + (float)pushX, transform.position.y + (float)pushY);
+            //enemyObj.GetComponent<AILerp>().enabled = true;
 
             var enemyRenderer = enemyObj.GetComponent<Renderer>();
             enemyRenderer.material.SetColor("_Color", Color.red);
+            lerp.speed = 0;
             isHurt = true;
         }
     }

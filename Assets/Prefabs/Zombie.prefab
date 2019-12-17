@@ -23,8 +23,8 @@ GameObject:
   - component: {fileID: 9074362109828318641}
   - component: {fileID: 1381577775978284914}
   - component: {fileID: 7028711613040787030}
-  - component: {fileID: 3811926701638357844}
   - component: {fileID: 9203126020014680362}
+  - component: {fileID: 7295966944328701200}
   m_Layer: 10
   m_Name: Zombie
   m_TagString: Enemy
@@ -300,7 +300,7 @@ MonoBehaviour:
   canMove: 1
   speed: 3
   orientation: 1
-  enableRotation: 1
+  enableRotation: 0
   rotationSpeed: 10
   interpolatePathSwitches: 1
   switchPathInterpolationSpeed: 5
@@ -365,18 +365,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isHurt: 0
---- !u!114 &3811926701638357844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8856077653266973082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6baaeb152ca52284e9523fefb55989b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &9203126020014680362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -387,6 +375,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85febed082f350e43bf59c71b6bca560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7295966944328701200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8856077653266973082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6baaeb152ca52284e9523fefb55989b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &9207304699234412439
