@@ -7707,7 +7707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03c6afb16e301c24a922aab5c946fd1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1002268415852666222, guid: 0176da1fde510134b9d600cf39c0efcd,
+  bulletPrefab: {fileID: 9036452162512438640, guid: 43f7cff647d5d1c488c824d7d18f363a,
     type: 3}
   bulletSpawn: {fileID: 1382902493}
   fireTime: 0.25

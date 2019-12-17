@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad162f28fa987fe4792e3aef567778dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabToSpawn: {fileID: 2276135040955166902, guid: 7e314febdfeb8e4458063533e585e67d,
+  prefabToSpawn: {fileID: 8440392210291287437, guid: f0c6f8aad8ab210448133faee290a69e,
     type: 3}
   adjustmentAngle: 90
 --- !u!114 &8644904211202500491
