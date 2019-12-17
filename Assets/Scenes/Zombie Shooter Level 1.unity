@@ -300,9 +300,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 100
-  m_WholeNumbers: 1
-  m_Value: 100
+  m_MaxValue: 50
+  m_WholeNumbers: 0
+  m_Value: 50
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -321,6 +321,7 @@ GameObject:
   - component: {fileID: 93304715}
   - component: {fileID: 93304714}
   - component: {fileID: 93304713}
+  - component: {fileID: 93304717}
   m_Layer: 5
   m_Name: Death Button
   m_TagString: Untagged
@@ -410,8 +411,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: printCheck
+      - m_Target: {fileID: 93304717}
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -461,6 +462,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93304711}
   m_CullTransparentMesh: 0
+--- !u!114 &93304717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93304711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc15c671dfc5f924db79e822b8b081a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &286608584
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,7 +525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7583,7 +7596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a4d0ebe9b5d1cf4ba971ba6f4c96181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 50
   onDie:
     m_PersistentCalls:
       m_Calls:
