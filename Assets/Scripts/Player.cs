@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     private Animator gunAnim;
     private void Start()
     {
-        gunAnim = GetComponent<Animator>();
+        gunAnim = GetComponentInChildren<Animator>();
     }
     private void Update()
     {

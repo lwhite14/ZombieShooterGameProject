@@ -20,7 +20,6 @@ public class EnemyAnimationControl : MonoBehaviour
     void Update()
     {
         Vector2 difference = playerObj.transform.position - selfObj.transform.position;
-        Debug.Log(difference.y);
 
         Knockback knockBack = selfObj.GetComponent<Knockback>();
 
