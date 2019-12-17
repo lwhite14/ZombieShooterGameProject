@@ -55,5 +55,7 @@ public class SpeederZombie : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         lerp.speed = 1;
+        int counter = 0;
+        bool isLow = true;
     }
 }
