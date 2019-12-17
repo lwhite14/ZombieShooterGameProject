@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a4d0ebe9b5d1cf4ba971ba6f4c96181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 5
   onDie:
     m_PersistentCalls:
       m_Calls:
@@ -320,9 +320,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   smoothType: 0
-  subdivisions: 0
+  subdivisions: 6
   iterations: 2
-  strength: 1
+  strength: 0
   uniformLength: 0
   maxSegmentLength: 2
   bezierTangentLength: 0.4
