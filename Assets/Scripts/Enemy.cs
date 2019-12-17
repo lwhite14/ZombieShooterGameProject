@@ -10,4 +10,5 @@ public class Enemy : MonoBehaviour
         GameObject player = GameObject.FindWithTag("Player");
         onSpawn.Invoke(player.transform);
     }
+
 }

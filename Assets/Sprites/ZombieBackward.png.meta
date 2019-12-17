@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: ca4e30bb2a4ebf74eb4a0f4ce8160128
+guid: ec4a3186ef4038645890a0bca7fdaeae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6610731943237019977
-    second: Hero_fire_anim_0
+      213: 6592041578250454426
+    second: ZombieBackward_0
   - first:
-      213: -2979551016753827208
-    second: Hero_fire_anim_1
+      213: -1806103625477744123
+    second: ZombieBackward_1
+  - first:
+      213: 3077877244548360257
+    second: ZombieBackward_2
+  - first:
+      213: -1867797558304789626
+    second: ZombieBackward_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -51,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -88,41 +94,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hero_fire_anim_0
+      name: ZombieBackward_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 506b2ace2ba3c1040ad67db20cbd4a79
-      internalID: -6610731943237019977
+      spriteID: 63ce15988839a66488c455125b423163
+      internalID: 6592041578250454426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_fire_anim_1
+      name: ZombieBackward_1
       rect:
         serializedVersion: 2
-        x: 256
+        x: 64
         y: 0
-        width: 256
-        height: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +133,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb718b2485f42a84d9811e8088041263
-      internalID: -2979551016753827208
+      spriteID: bf9b18f4c337f4046afccc6452c85496
+      internalID: -1806103625477744123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieBackward_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7bc4035982d8a4090f51748fcb4884
+      internalID: 3077877244548360257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieBackward_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eca456169e04a94b8ef772d8b8d44dd
+      internalID: -1867797558304789626
       vertices: []
       indices: 
       edges: []
