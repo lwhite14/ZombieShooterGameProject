@@ -9,6 +9,7 @@ public class Knockback : MonoBehaviour
     private GameObject playerObj = null;
     private GameObject enemyObj;
     private AILerp lerp;
+    float originalSpeed;
     public bool isHurt = false;
     int hurtCounter = 20;
     private Animator walkAnim;
@@ -18,6 +19,7 @@ public class Knockback : MonoBehaviour
         walkAnim = GetComponent<Animator>();
         enemyObj = gameObject;
         lerp = enemyObj.GetComponent<AILerp>();
+        originalSpeed = lerp.speed;
         playerObj = GameObject.Find("Hero");
     }
 
@@ -31,7 +33,7 @@ public class Knockback : MonoBehaviour
                 var enemyRenderer = enemyObj.GetComponent<Renderer>();
                 enemyRenderer.material.SetColor("_Color", Color.white);
                 hurtCounter = 20;
-                lerp.speed = 3;
+                lerp.speed = originalSpeed;
             }
             else
             {
