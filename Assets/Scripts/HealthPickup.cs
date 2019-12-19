@@ -10,6 +10,7 @@ public class HealthPickup : MonoBehaviour
     HealthSystem healthComp;
     GameObject playerObj;
     public OnDamagedEvent onHealed;
+    public AudioClip clip;
 
     void Start()
     {
@@ -34,8 +35,6 @@ public class HealthPickup : MonoBehaviour
             oldHealth = healthComp.health;
             newHealth = oldHealth + 10;
 
-            Debug.Log("New Health = " + newHealth);
-
             if (newHealth > 50)
             {
                 healthComp.health = 50;
@@ -44,9 +43,7 @@ public class HealthPickup : MonoBehaviour
             {
                 healthComp.health = newHealth;
             }
-
-            Debug.Log("Actual New Health = " + healthComp.health);
-
+            AudioSource.PlayClipAtPoint(clip, new Vector3(0, 0, 0));
             onHealed.Invoke(healthComp.health);
         }
     }

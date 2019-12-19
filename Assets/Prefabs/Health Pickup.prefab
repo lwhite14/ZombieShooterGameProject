@@ -147,3 +147,4 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: OnDamagedEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
+  clip: {fileID: 8300000, guid: fb0bfb0b6815b5240932545780229b87, type: 3}
