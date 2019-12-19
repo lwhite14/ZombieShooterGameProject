@@ -27,17 +27,5 @@ public class DestroyOnDie : MonoBehaviour
         panelAnim.SetBool("isDead", true);
         textAnim.SetBool("isDead", true);
         buttonAnim.SetBool("isDead", true);
-
-
-
-
-
-        //Image image = deathPanel.GetComponent<Image>();
-
-        //Color c = image.color;
-        //c.a = 255;
-        //image.color = c;
-
-        //Debug.Log("yeet");
     }
 }

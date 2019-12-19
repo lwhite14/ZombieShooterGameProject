@@ -15,20 +15,28 @@ public class TopDownCharacterController2D : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
 
-        if ((x != 0) | (y != 0))
+        if (speed > 0)
         {
-            if (y > 0)
+            if ((x != 0) | (y != 0))
             {
-                walkAnim.SetBool("isWalkingForward", false);
-                walkAnim.SetBool("isWalkingBackward", true);
+                if (y > 0)
+                {
+                    walkAnim.SetBool("isWalkingForward", false);
+                    walkAnim.SetBool("isWalkingBackward", true);
+                }
+                else
+                {
+                    walkAnim.SetBool("isWalkingForward", true);
+                    walkAnim.SetBool("isWalkingBackward", false);
+                }
             }
             else
             {
-                walkAnim.SetBool("isWalkingForward", true);
+                walkAnim.SetBool("isWalkingForward", false);
                 walkAnim.SetBool("isWalkingBackward", false);
             }
         }
-        else
+        else 
         {
             walkAnim.SetBool("isWalkingForward", false);
             walkAnim.SetBool("isWalkingBackward", false);

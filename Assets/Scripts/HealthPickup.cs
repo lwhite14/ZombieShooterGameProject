@@ -43,7 +43,7 @@ public class HealthPickup : MonoBehaviour
             {
                 healthComp.health = newHealth;
             }
-            AudioSource.PlayClipAtPoint(clip, new Vector3(0, 0, 0));
+            AudioSource.PlayClipAtPoint(clip, gameObject.transform.position);
             onHealed.Invoke(healthComp.health);
         }
     }
