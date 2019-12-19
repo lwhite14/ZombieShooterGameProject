@@ -60,3 +60,6 @@ TagManager:
   - name: Foreground
     uniqueID: 1797847215
     locked: 0
+  - name: Moveables
+    uniqueID: 816381733
+    locked: 0
