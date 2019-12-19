@@ -492,7 +492,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &286608585
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7505,7 +7505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad162f28fa987fe4792e3aef567778dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabToSpawn: {fileID: 8856077653266973082, guid: 4b25c78e70459ac4f82d232d2da60115,
+  prefabToSpawn: {fileID: 8856077653266973082, guid: 54f579a962164a144a883d8000818b81,
     type: 3}
   adjustmentAngle: 0
 --- !u!114 &489601069
@@ -8076,7 +8076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad162f28fa987fe4792e3aef567778dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabToSpawn: {fileID: 4221245303419632593, guid: 52229925d496e7d4b812775d0c1f055b,
+  prefabToSpawn: {fileID: 8856077653266973082, guid: 4b25c78e70459ac4f82d232d2da60115,
     type: 3}
   adjustmentAngle: 0
 --- !u!114 &822719436
@@ -10823,7 +10823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad162f28fa987fe4792e3aef567778dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabToSpawn: {fileID: 4221245303419632593, guid: 52229925d496e7d4b812775d0c1f055b,
+  prefabToSpawn: {fileID: 8856077653266973082, guid: 54f579a962164a144a883d8000818b81,
     type: 3}
   adjustmentAngle: 0
 --- !u!114 &2017062417
