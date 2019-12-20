@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1673732733077124514
-    second: trees_0
+    second: rock
   - first:
       213: 3611188691014843535
     second: multitree
@@ -41,6 +41,12 @@ TextureImporter:
   - first:
       213: 2802346070031776116
     second: trees_12
+  - first:
+      213: 6173848189483218012
+    second: smallrock
+  - first:
+      213: -979145239441950604
+    second: flowers
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -204,6 +210,69 @@ TextureImporter:
       bones: []
       spriteID: 0049652087e28dc43b0c5e95c8be5993
       internalID: -7523560045513598774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 145
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28aa1837fcab13c47938d02e5961b82c
+      internalID: -1673732733077124514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smallrock
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 148
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2032058a7b134dc4eb981d618ca1ce66
+      internalID: 6173848189483218012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flowers
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 147
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00465f0d4f0019140b0f16d64aeaa1fe
+      internalID: -979145239441950604
       vertices: []
       indices: 
       edges: []
