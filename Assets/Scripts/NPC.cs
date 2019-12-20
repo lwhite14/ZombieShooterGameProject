@@ -14,6 +14,7 @@ public class NPC : MonoBehaviour
 
     void Start()
     {
+        y = lowestY;
         realSpeed = speed / 100;
         walkingAnim = GetComponent<Animator>();
     }
