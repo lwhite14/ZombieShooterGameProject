@@ -10,10 +10,12 @@ public class NPC : MonoBehaviour
     public float highestY;
     float realSpeed;
     bool isWalkingForward;
+    Animator walkingAnim;
 
     void Start()
     {
         realSpeed = speed / 100;
+        walkingAnim = GetComponent<Animator>();
     }
 
     void Update()
@@ -21,10 +23,12 @@ public class NPC : MonoBehaviour
         if (isWalkingForward)
         {
             y -= realSpeed;
+            walkingAnim.SetBool("isWalkingForward", true);
         }
         else 
         {
             y += realSpeed;
+            walkingAnim.SetBool("isWalkingForward", false);
         }
 
         if (y < lowestY) 

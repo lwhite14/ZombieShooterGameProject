@@ -18,8 +18,12 @@ public class HealthPickup : MonoBehaviour
 
     void Update()
     {
-        playerObj = GameObject.Find("Hero");
-        healthComp = playerObj.GetComponent<HealthSystem>();
+        try
+        {
+            playerObj = GameObject.Find("Hero");
+            healthComp = playerObj.GetComponent<HealthSystem>();
+        }
+        catch { }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
