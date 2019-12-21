@@ -5,13 +5,15 @@ using UnityEngine;
 
 public class SpeederZombie : MonoBehaviour
 {
-    public AILerp lerp;
+    AILerp lerp;
     int counter = 0;
     bool isLow = true;
+    float speed;
 
     void Start()
     {
         lerp = gameObject.GetComponent<AILerp>();
+        speed = lerp.speed;
     }
 
     void Update()
@@ -28,7 +30,7 @@ public class SpeederZombie : MonoBehaviour
         }
         else 
         {
-            if (counter > 80) 
+            if (counter > 120) 
             {
                 updateSpeed(isLow);
                 isLow = true;
@@ -48,13 +50,13 @@ public class SpeederZombie : MonoBehaviour
         }
         else 
         {
-            lerp.speed = 1;
+            lerp.speed = speed;
         }
     }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        lerp.speed = 1;
+        lerp.speed = speed;
         counter = 0;
         isLow = true;
     }
