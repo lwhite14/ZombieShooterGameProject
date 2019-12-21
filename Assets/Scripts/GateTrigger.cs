@@ -5,6 +5,7 @@ using UnityEngine;
 public class GateTrigger : MonoBehaviour
 {
     GameObject canvasObj;
+    public AudioClip clip;
     int keys;
     public 
 
@@ -20,6 +21,7 @@ public class GateTrigger : MonoBehaviour
             keys = canvasObj.GetComponent<GameUI>().playerKeys;
             if (keys > 0) 
             {
+                AudioSource.PlayClipAtPoint(clip, gameObject.transform.position);
                 Destroy(gameObject);
                 canvasObj.GetComponent<GameUI>().playerKeys -= 1;
                 canvasObj.GetComponent<GameUI>().keysText.text = "KEYS: " + (keys - 1).ToString();

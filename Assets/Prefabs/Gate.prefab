@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3734524822260500606}
   - component: {fileID: 3734524822260500605}
-  m_Layer: 0
-  m_Name: GameObject
+  m_Layer: 19
+  m_Name: Gate Collide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 3734524822505083226}
   - component: {fileID: 3734524822505083227}
   - component: {fileID: 3734524822505083224}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,3 +179,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75752a09de8fdc749a26b82bc4a04135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: fdf24598cf4ccb14482bcc41f553408b, type: 3}
