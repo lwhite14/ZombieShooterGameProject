@@ -5,7 +5,8 @@ using UnityEngine;
 public class GateTrigger : MonoBehaviour
 {
     GameObject canvasObj;
-    public AudioClip clip;
+    public AudioClip openClip;
+    public AudioClip closedClip;
     int keys;
     public 
 
@@ -19,12 +20,16 @@ public class GateTrigger : MonoBehaviour
         if (other.name == "Wall Collision")
         {
             keys = canvasObj.GetComponent<GameUI>().playerKeys;
-            if (keys > 0) 
+            if (keys > 0)
             {
-                AudioSource.PlayClipAtPoint(clip, gameObject.transform.position);
+                AudioSource.PlayClipAtPoint(openClip, gameObject.transform.position);
                 Destroy(gameObject);
                 canvasObj.GetComponent<GameUI>().playerKeys -= 1;
                 canvasObj.GetComponent<GameUI>().keysText.text = "KEYS: " + (keys - 1).ToString();
+            }
+            else 
+            {
+                AudioSource.PlayClipAtPoint(closedClip, gameObject.transform.position);
             }
 
         }
