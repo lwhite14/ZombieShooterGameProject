@@ -6,6 +6,7 @@ public class DoorDetect : MonoBehaviour
 {
     GameObject playerObj;
     GameObject deathPanel;
+    GameObject[] zombieObjs;
     Animator panelAnim;
     bool isChanging = false;
     int counter = 0;
@@ -26,7 +27,7 @@ public class DoorDetect : MonoBehaviour
     {
         if (isChanging) 
         {
-            if (counter > 500) 
+            if (counter > 500)
             {
                 playerObj.transform.position = new Vector2(xCoord, yCoord);
                 panelAnim.SetBool("isDead", false);
@@ -34,6 +35,14 @@ public class DoorDetect : MonoBehaviour
                 counter = 0;
                 playerObj.GetComponent<TopDownCharacterController2D>().speed = originalSpeed;
 
+                foreach (GameObject zombie in zombieObjs)
+                    zombie.GetComponent<Knockback>().GoZombie();
+
+            }
+            else 
+            {
+                foreach (GameObject zombie in zombieObjs)
+                    zombie.GetComponent<Knockback>().StopZombie();
             }
             counter += 1;
         }
@@ -48,6 +57,10 @@ public class DoorDetect : MonoBehaviour
             AudioSource.PlayClipAtPoint(clip, gameObject.transform.position);
             isChanging = true;
             playerObj.GetComponent<TopDownCharacterController2D>().speed = 0;
+
+            zombieObjs = GameObject.FindGameObjectsWithTag("Enemy");
+            //foreach (GameObject zombie in zombieObjs)
+            //    zombie.GetComponent<Knockback>().StopZombie();
         }
     }
 }

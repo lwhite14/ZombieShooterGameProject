@@ -13,6 +13,7 @@ public class Knockback : MonoBehaviour
     public bool isHurt = false;
     int hurtCounter = 20;
     private Animator walkAnim;
+    int stopCounter = 0;
 
     private void Start()
     {
@@ -71,25 +72,35 @@ public class Knockback : MonoBehaviour
         }
     }
 
-    private static double getAd(double ang)
+    //private static double getAd(double ang)
+    //{
+    //    double output;
+    //    output = Math.Cos(ang * (Math.PI / 180.0)) * 1;
+    //    return output;
+    //}
+
+    //private static double getOp(double ang)
+    //{
+    //    double output;
+    //    output = Math.Sin(ang * (Math.PI / 180.0)) * 1;
+    //    return output;
+    //}
+
+    //private static double getAngle(double Op, double Ad)
+    //{
+    //    double output;
+    //    output = Math.Atan(Op / Ad) * (180 / Math.PI);
+    //    return output;
+    //}
+
+    public void StopZombie() 
     {
-        double output;
-        output = Math.Cos(ang * (Math.PI / 180.0)) * 1;
-        return output;
+        lerp.speed = 0;
     }
 
-    private static double getOp(double ang)
+    public void GoZombie() 
     {
-        double output;
-        output = Math.Sin(ang * (Math.PI / 180.0)) * 1;
-        return output;
-    }
-
-    private static double getAngle(double Op, double Ad)
-    {
-        double output;
-        output = Math.Atan(Op / Ad) * (180 / Math.PI);
-        return output;
+        lerp.speed = originalSpeed;
     }
 
 }
