@@ -13,19 +13,4 @@ public class DestroyOnDie : MonoBehaviour
     {
         Destroy(gameObject);
     }
-
-    public void playerDie() 
-    {
-        Destroy(gameObject);
-
-        GameObject deathPanel = GameObject.Find("Death Panel");
-        GameObject deathText = GameObject.Find("Death Text");
-        GameObject deathButton = GameObject.Find("Death Button");
-        Animator panelAnim = deathPanel.GetComponent<Animator>();
-        Animator textAnim = deathText.GetComponent<Animator>();
-        Animator buttonAnim = deathButton.GetComponent<Animator>();
-        panelAnim.SetBool("isDead", true);
-        textAnim.SetBool("isDead", true);
-        buttonAnim.SetBool("isDead", true);
-    }
 }
