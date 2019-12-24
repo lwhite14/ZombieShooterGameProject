@@ -16029,7 +16029,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 554111866}
-        m_MethodName: playerDie
+        m_MethodName: Die
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
