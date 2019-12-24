@@ -24528,7 +24528,12 @@ PrefabInstance:
     - target: {fileID: 114237468523964854, guid: d33c08317ce1f2a4a9603763aa54c65f,
         type: 3}
       propertyPath: data.dataString
-      value: UEsDBBQAAAgIAAAAIeyhwiwkNAIAAMkEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2jAQ/SuMzmXGkECa3logtAcCE5rpxRchrbEGWfLoI3xk+O9dyQI7tDlZ2n27+97uWu9EKFsDc9rMjeALzYF865FwJl96hEbfC3VCo3mAFmF1Bc4I9l1tZcBmaPRKFNpUM76FibbOormg0gK6jHYhWqHpvUcO+Ok/hpBjCj2Fb++MJwbKgWlx/0d5xSStauBrcYIWPMiGCY6nCFQoJWECb6alFDYRIe5YR50v9BhkckFRVCwesCWIbenwMuwGLovCgkuEDD1OhcHeNBnJD+3KkKmidteweqPShxrj0ejuITJq0i7+QfQH0V0YXf28VB5koYorBdshR0at6/S0a55+pO7Vnsod3Uj4U4J61nOjveLodMaHUG9hOG2vV3GTEtiutTdUb4y+/nw4QcM56j9MpKg2yYXXtdSx13HqYHAqv5Bu3AmbUGgNHF4t/Kbb7vIkx5Mw1qEraVSB3EZ7E6BkFjsWtHg30UaB6WaoQVHpjivM425neOP7POqJhv8jVU++y/rfhERzi8+yG9dK76+zsqXeL8CWS++kUNA2OjiesVETrVSzYl1Jl7C1NwVlnbCtF/zjZpExo49ZdpfBeHg/RnQ/Axhu2P2AZeOv/GE0InH1hEKdVK4aoqk9ODbVJle4ZpeXoTc3tI7rzg3dz8Wp0rZFClXoNTMAatlkuBIHg0Xwl+QzLrBBa3BOqDhw8p4TqdkOeH5NlEels4MzNG+z5KQWb9oFS04m8cnIyZmc/wJQSwMEFAAACAgAAAAh7BCpuo1sAAAAdwAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSM9JRUEovSizIKAYKGII4pZkpIHa0kllyoqWBgbFBqpmRiVlaYrKuQWqqUVKyiWGygZlFirmpqVIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAACHsocIsJDQCAADJBAAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAACHsEKm6jWwAAAB3AAAACQAkAAAAAAAAAAAAAACBAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAADgDAAAAAA==
+      value: UEsDBBQAAAgIAAAAIexy59vPMgIAAMoEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2jAQ/SuMzmXGkECa3lpDaA8EJjTTiy9CXmMNsuTRR/ga/ntXssCGNidLu29339td60S4NDUwq/RM83yuciDfesSfyZceocH3Ri1XaB6ghRtVgdWcfZcb4bEJGp3khdLVNN9Aqow1aC6oMIAurayPlmg69cgeP/1nH3KIoUf/7Z3xxEBa0C3u/ygnmaBVDfmKH6EFD5JhhOMpACVKiRjPmykhuIlEiD3UQecbPXiZOacoKhT32BL4prR4GXYDF0VhwEZCmh4mXGNvmozkh7Klz1RRs21YfVDhfI3xaPTwFBg1aef/IPqD4C60qn5eKg8SX8WWnG2RI6PGdnraNU9uqTu5o2JL1wL+lCBf1UwrJ3N0Wu18qDMwnLTXq7i0BLZt7Q3VO6OrPx+O13AO+vep4NU6uvC6Eir0OkwdNE7lF9INO2EiCq2ew7uB33TTXZ7oeOHaWHRFjdKTWyunPZRMQ8e8FmdTpSXoboYaJBX2sMQ89n6Gd77Po16o/z9i9ei7rP9dSDC3+CS5cy3V7jorU6rdHEy5cFZwCW2jveMVG5UqKZsV60q6hK2cLijrhG0cz283i4wZfU6ShwTGw8cxovsJwHDNHgcsGX/Nn0YjElaPS9RJxbIhGtuDY+v2ROKeXZ6G3kzTOux7ruluxo+VMi0PLgu1YhpALm5TGNBYBf/JfJpz7NAKrOUyTJycMiIU20KeXRNlQep0bzXN2iwZqfmHst6SkTS8GRk5k/NfUEsDBBQAAAgIAAAAIewQqbqNbAAAAHcAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jPSUVBKL0osyCgGChiCOKWZKSB2tJJZcqKlgYGxQaqZkYlZWmKyrkFqqlFSsolhsoGZRYq5qalSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAAAh7HLn288yAgAAygQAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAAAh7BCpuo1sAAAAdwAAAAkAJAAAAAAAAAAAAAAAfwIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAA2AwAAAAA=
+      objectReference: {fileID: 0}
+    - target: {fileID: 114237468523964854, guid: d33c08317ce1f2a4a9603763aa54c65f,
+        type: 3}
+      propertyPath: showGraphs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d33c08317ce1f2a4a9603763aa54c65f, type: 3}
@@ -31566,11 +31571,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7041920296350480860, guid: 7c41b56f405112a438fa45b5cf43f469,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 7041920296350480861, guid: 7c41b56f405112a438fa45b5cf43f469,
         type: 3}
       propertyPath: spawners.Array.data[0]
@@ -31581,6 +31581,11 @@ PrefabInstance:
       propertyPath: spawners.Array.data[1]
       value: 
       objectReference: {fileID: 1497612298}
+    - target: {fileID: 7041920296350480860, guid: 7c41b56f405112a438fa45b5cf43f469,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c41b56f405112a438fa45b5cf43f469, type: 3}
 --- !u!4 &1641939772 stripped
@@ -32539,16 +32544,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7041920296350480860, guid: 7c41b56f405112a438fa45b5cf43f469,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 7041920296350480860, guid: 7c41b56f405112a438fa45b5cf43f469,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 7041920296350480861, guid: 7c41b56f405112a438fa45b5cf43f469,
         type: 3}
       propertyPath: spawners.Array.size
@@ -32569,6 +32564,16 @@ PrefabInstance:
       propertyPath: spawners.Array.data[2]
       value: 
       objectReference: {fileID: 1967801122}
+    - target: {fileID: 7041920296350480860, guid: 7c41b56f405112a438fa45b5cf43f469,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7041920296350480860, guid: 7c41b56f405112a438fa45b5cf43f469,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c41b56f405112a438fa45b5cf43f469, type: 3}
 --- !u!1 &1920502552
@@ -33233,6 +33238,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3060824925475034547, guid: 77413bac951777c4b903a812ca807717,
+        type: 3}
+      propertyPath: m_Mass
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77413bac951777c4b903a812ca807717, type: 3}
 --- !u!1001 &5997777822000136187
@@ -33307,5 +33317,10 @@ PrefabInstance:
       propertyPath: gate
       value: 
       objectReference: {fileID: 1405607364}
+    - target: {fileID: 5997777821185710214, guid: 4c843d1790b46814ba385d09c99373c9,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c843d1790b46814ba385d09c99373c9, type: 3}

@@ -16627,6 +16627,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3734524822505083224, guid: c983580b8bfa22b498421232dc62dafa,
+        type: 3}
+      propertyPath: openClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fdf24598cf4ccb14482bcc41f553408b, type: 3}
+    - target: {fileID: 3734524822505083224, guid: c983580b8bfa22b498421232dc62dafa,
+        type: 3}
+      propertyPath: closedClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d65b0e46b7cf8684f962cc9ff600c3c1, type: 3}
     - target: {fileID: 3734524822505083226, guid: c983580b8bfa22b498421232dc62dafa,
         type: 3}
       propertyPath: m_Sprite
@@ -16698,16 +16708,6 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3734524822505083224, guid: c983580b8bfa22b498421232dc62dafa,
-        type: 3}
-      propertyPath: openClip
-      value: 
-      objectReference: {fileID: 8300000, guid: fdf24598cf4ccb14482bcc41f553408b, type: 3}
-    - target: {fileID: 3734524822505083224, guid: c983580b8bfa22b498421232dc62dafa,
-        type: 3}
-      propertyPath: closedClip
-      value: 
-      objectReference: {fileID: 8300000, guid: d65b0e46b7cf8684f962cc9ff600c3c1, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c983580b8bfa22b498421232dc62dafa, type: 3}
 --- !u!4 &669377850 stripped
@@ -27002,16 +27002,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3734524822260500607, guid: c983580b8bfa22b498421232dc62dafa,
-        type: 3}
-      propertyPath: m_Layer
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 3734524822260500605, guid: c983580b8bfa22b498421232dc62dafa,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3734524822505083224, guid: c983580b8bfa22b498421232dc62dafa,
         type: 3}
       propertyPath: openClip
@@ -27022,6 +27012,16 @@ PrefabInstance:
       propertyPath: closedClip
       value: 
       objectReference: {fileID: 8300000, guid: d65b0e46b7cf8684f962cc9ff600c3c1, type: 3}
+    - target: {fileID: 3734524822260500607, guid: c983580b8bfa22b498421232dc62dafa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3734524822260500605, guid: c983580b8bfa22b498421232dc62dafa,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c983580b8bfa22b498421232dc62dafa, type: 3}
 --- !u!1001 &4109834191223430493
