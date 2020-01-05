@@ -11,7 +11,6 @@ public class FlagTrigger : MonoBehaviour
     bool isOver = false;
     int counter = 0;
     public AudioClip clip;
-    AILerp[] lerps;
     public string scene;
 
     void Start()
@@ -43,11 +42,6 @@ public class FlagTrigger : MonoBehaviour
             AudioSource.PlayClipAtPoint(clip, gameObject.transform.position);
 
             GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-            //for(int counter = 0; counter < enemies.Length; counter++)
-            //    lerps[counter] = enemies[counter].GetComponent<AILerp>();
-
-            //foreach (AILerp lerp in lerps)
-            //    lerp.speed = 0;
 
             foreach (GameObject enemy in enemies)
                 Destroy(enemy);
