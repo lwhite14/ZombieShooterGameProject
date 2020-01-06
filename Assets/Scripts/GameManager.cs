@@ -24,6 +24,10 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        int playerScore = 0;
+        PlayerPrefs.SetInt("Score", playerScore);
+        int playerHealth = 50;
+        PlayerPrefs.SetInt("Health", playerHealth);
         SceneManager.LoadScene("Zombie Shooter Level 1");
     }
 

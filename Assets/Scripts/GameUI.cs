@@ -1,12 +1,25 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 public class GameUI : MonoBehaviour
 {
     public Slider healthBar;
     public Text scoreText;
     public Text keysText;
-    public int playerScore = 0;
+    public int playerScore;
     public int playerKeys = 0;
+    private int score;
+    private int health;
+
+    private void Start() 
+    {
+        score = PlayerPrefs.GetInt("Score");
+        health = PlayerPrefs.GetInt("Health");
+        playerScore = score;
+        UpdateScore(0);
+        UpdateHealthBar(health);
+    }
+
     private void OnEnable()
     {
         Player.OnUpdateHealth += UpdateHealthBar;
@@ -19,6 +32,7 @@ public class GameUI : MonoBehaviour
         AddScore.OnSendScore -= UpdateScore;
         Key.OnUpdateKeys -= UpdateKeys;
         PlayerPrefs.SetInt("Score", playerScore);
+        PlayerPrefs.SetInt("Health", Convert.ToInt32(healthBar.value));
     }
     private void UpdateHealthBar(int health)
     {
