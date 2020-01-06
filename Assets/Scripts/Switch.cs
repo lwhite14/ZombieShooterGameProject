@@ -16,6 +16,4 @@ public class Switch : MonoBehaviour
             Destroy(GameObject.Find("Ball"));
         }
     }
-
-
 }
