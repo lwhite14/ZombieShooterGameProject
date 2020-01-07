@@ -38,4 +38,9 @@ public class GameManager : MonoBehaviour
         panelAnim.SetBool("isDead", true);
         isDead = true;
     }
+
+    public void Quit() 
+    {
+        Application.Quit();
+    }
 }
