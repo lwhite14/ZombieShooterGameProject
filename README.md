@@ -12,5 +12,6 @@ Follow the below instructions to get started with Another Zombie Game source cod
  - [Download Alpha build (no source code) from Itch.io](https://lwhite14.itch.io/another-zombie-game)
 ## Credits
  - Luis Zuno, [Tile Map](https://opengameart.org/content/rpg-town-pixel-art-assets) 
+ - Juhani Junkala, [Various Sounds Effects](https://opengameart.org/content/512-sound-effects-8-bit-style)
 #
 Made by Luke White
